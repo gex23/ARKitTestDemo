@@ -7,23 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8159C5F41FF1326D002FFCE5 /* ChocolateCake.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8159C5F31FF131BC002FFCE5 /* ChocolateCake.scn */; };
+		8159C5F51FF13277002FFCE5 /* Tarelka.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8159C5EE1FF13013002FFCE5 /* Tarelka.scn */; };
+		8159C5F61FF1327D002FFCE5 /* glass.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8159C5EC1FF12F9E002FFCE5 /* glass.scn */; };
+		8159C5FD1FF15275002FFCE5 /* bottle.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8159C5FC1FF151A9002FFCE5 /* bottle.scn */; };
 		818282101FEFC5FE00BE55B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182820F1FEFC5FE00BE55B9 /* AppDelegate.swift */; };
-		818282121FEFC5FE00BE55B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282111FEFC5FE00BE55B9 /* ViewController.swift */; };
+		818282121FEFC5FE00BE55B9 /* PickPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282111FEFC5FE00BE55B9 /* PickPointsView.swift */; };
 		818282151FEFC5FE00BE55B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818282131FEFC5FE00BE55B9 /* Main.storyboard */; };
 		818282181FEFC5FE00BE55B9 /* CheckHowMakenavigateAR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 818282161FEFC5FE00BE55B9 /* CheckHowMakenavigateAR.xcdatamodeld */; };
 		8182821A1FEFC5FE00BE55B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818282191FEFC5FE00BE55B9 /* Assets.xcassets */; };
 		8182821D1FEFC5FE00BE55B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8182821B1FEFC5FE00BE55B9 /* LaunchScreen.storyboard */; };
+		818282271FEFC6DA00BE55B9 /* ShowRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282261FEFC6DA00BE55B9 /* ShowRouteView.swift */; };
+		818282291FEFC6FD00BE55B9 /* PickPointsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282281FEFC6FD00BE55B9 /* PickPointsController.swift */; };
+		8182822B1FEFCCC400BE55B9 /* ShowRouteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182822A1FEFCCC400BE55B9 /* ShowRouteController.swift */; };
+		8182822E1FEFCD9D00BE55B9 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182822D1FEFCD9700BE55B9 /* BaseNode.swift */; };
+		818282301FEFCE3300BE55B9 /* MatrixHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182822F1FEFCE3300BE55B9 /* MatrixHelper.swift */; };
+		818282321FEFCE8500BE55B9 /* MKRouteStep+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282311FEFCE8500BE55B9 /* MKRouteStep+Extension.swift */; };
+		818282341FEFCF9B00BE55B9 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282331FEFCF9B00BE55B9 /* CLLocation+Extension.swift */; };
+		818282361FEFCFC700BE55B9 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282351FEFCFC700BE55B9 /* Double+Extension.swift */; };
+		818282381FEFCFE500BE55B9 /* LocationTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282371FEFCFE500BE55B9 /* LocationTranslation.swift */; };
+		8182823A1FEFD05D00BE55B9 /* CLLocationCoordinate2D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282391FEFD05D00BE55B9 /* CLLocationCoordinate2D+Extension.swift */; };
+		8182823C1FEFD08A00BE55B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182823B1FEFD08A00BE55B9 /* Constants.swift */; };
+		8182823E1FEFDB1A00BE55B9 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182823D1FEFDB1A00BE55B9 /* LocationService.swift */; };
+		818282401FEFE7D900BE55B9 /* Singletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182823F1FEFE7D900BE55B9 /* Singletone.swift */; };
+		818282431FF0023500BE55B9 /* addPlateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282421FF0023500BE55B9 /* addPlateView.swift */; };
+		818282451FF0025100BE55B9 /* addPlateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818282441FF0025100BE55B9 /* addPlateController.swift */; };
+		818282481FF0073300BE55B9 /* ship.scn in Resources */ = {isa = PBXBuildFile; fileRef = 818282471FF0072700BE55B9 /* ship.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8159C5EC1FF12F9E002FFCE5 /* glass.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = glass.scn; sourceTree = "<group>"; };
+		8159C5EE1FF13013002FFCE5 /* Tarelka.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Tarelka.scn; sourceTree = "<group>"; };
+		8159C5F31FF131BC002FFCE5 /* ChocolateCake.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ChocolateCake.scn; sourceTree = "<group>"; };
+		8159C5FB1FF14E22002FFCE5 /* sodaCan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sodaCan.scn; sourceTree = "<group>"; };
+		8159C5FC1FF151A9002FFCE5 /* bottle.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bottle.scn; sourceTree = "<group>"; };
 		8182820C1FEFC5FE00BE55B9 /* CheckHowMakenavigateAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckHowMakenavigateAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8182820F1FEFC5FE00BE55B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		818282111FEFC5FE00BE55B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		818282111FEFC5FE00BE55B9 /* PickPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickPointsView.swift; sourceTree = "<group>"; };
 		818282141FEFC5FE00BE55B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		818282171FEFC5FE00BE55B9 /* CheckHowMakenavigateAR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CheckHowMakenavigateAR.xcdatamodel; sourceTree = "<group>"; };
 		818282191FEFC5FE00BE55B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8182821C1FEFC5FE00BE55B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8182821E1FEFC5FE00BE55B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818282261FEFC6DA00BE55B9 /* ShowRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRouteView.swift; sourceTree = "<group>"; };
+		818282281FEFC6FD00BE55B9 /* PickPointsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickPointsController.swift; sourceTree = "<group>"; };
+		8182822A1FEFCCC400BE55B9 /* ShowRouteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRouteController.swift; sourceTree = "<group>"; };
+		8182822D1FEFCD9700BE55B9 /* BaseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNode.swift; sourceTree = "<group>"; };
+		8182822F1FEFCE3300BE55B9 /* MatrixHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixHelper.swift; sourceTree = "<group>"; };
+		818282311FEFCE8500BE55B9 /* MKRouteStep+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKRouteStep+Extension.swift"; sourceTree = "<group>"; };
+		818282331FEFCF9B00BE55B9 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		818282351FEFCFC700BE55B9 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		818282371FEFCFE500BE55B9 /* LocationTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTranslation.swift; sourceTree = "<group>"; };
+		818282391FEFD05D00BE55B9 /* CLLocationCoordinate2D+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extension.swift"; sourceTree = "<group>"; };
+		8182823B1FEFD08A00BE55B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8182823D1FEFDB1A00BE55B9 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		8182823F1FEFE7D900BE55B9 /* Singletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singletone.swift; sourceTree = "<group>"; };
+		818282421FF0023500BE55B9 /* addPlateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPlateView.swift; sourceTree = "<group>"; };
+		818282441FF0025100BE55B9 /* addPlateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPlateController.swift; sourceTree = "<group>"; };
+		818282471FF0072700BE55B9 /* ship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +78,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8159C5F71FF132A7002FFCE5 /* sd object */ = {
+			isa = PBXGroup;
+			children = (
+				8159C5FC1FF151A9002FFCE5 /* bottle.scn */,
+				8159C5FB1FF14E22002FFCE5 /* sodaCan.scn */,
+				8159C5EE1FF13013002FFCE5 /* Tarelka.scn */,
+				8159C5F31FF131BC002FFCE5 /* ChocolateCake.scn */,
+				8159C5EC1FF12F9E002FFCE5 /* glass.scn */,
+				818282471FF0072700BE55B9 /* ship.scn */,
+			);
+			path = "sd object";
+			sourceTree = "<group>";
+		};
 		818282031FEFC5FE00BE55B9 = {
 			isa = PBXGroup;
 			children = (
+				8159C5F71FF132A7002FFCE5 /* sd object */,
+				818282411FF0020B00BE55B9 /* add object in horizontal place  */,
+				8182823F1FEFE7D900BE55B9 /* Singletone.swift */,
+				8182822C1FEFCD7E00BE55B9 /* helper for location points files i not created  */,
 				8182820E1FEFC5FE00BE55B9 /* CheckHowMakenavigateAR */,
 				8182820D1FEFC5FE00BE55B9 /* Products */,
 			);
@@ -56,8 +114,9 @@
 		8182820E1FEFC5FE00BE55B9 /* CheckHowMakenavigateAR */ = {
 			isa = PBXGroup;
 			children = (
+				818282251FEFC6B700BE55B9 /* show route in augmated reailty */,
+				818282241FEFC6AC00BE55B9 /* pick points */,
 				8182820F1FEFC5FE00BE55B9 /* AppDelegate.swift */,
-				818282111FEFC5FE00BE55B9 /* ViewController.swift */,
 				818282131FEFC5FE00BE55B9 /* Main.storyboard */,
 				818282191FEFC5FE00BE55B9 /* Assets.xcassets */,
 				8182821B1FEFC5FE00BE55B9 /* LaunchScreen.storyboard */,
@@ -65,6 +124,49 @@
 				818282161FEFC5FE00BE55B9 /* CheckHowMakenavigateAR.xcdatamodeld */,
 			);
 			path = CheckHowMakenavigateAR;
+			sourceTree = "<group>";
+		};
+		818282241FEFC6AC00BE55B9 /* pick points */ = {
+			isa = PBXGroup;
+			children = (
+				818282111FEFC5FE00BE55B9 /* PickPointsView.swift */,
+				818282281FEFC6FD00BE55B9 /* PickPointsController.swift */,
+			);
+			path = "pick points";
+			sourceTree = "<group>";
+		};
+		818282251FEFC6B700BE55B9 /* show route in augmated reailty */ = {
+			isa = PBXGroup;
+			children = (
+				818282261FEFC6DA00BE55B9 /* ShowRouteView.swift */,
+				8182822A1FEFCCC400BE55B9 /* ShowRouteController.swift */,
+			);
+			path = "show route in augmated reailty";
+			sourceTree = "<group>";
+		};
+		8182822C1FEFCD7E00BE55B9 /* helper for location points files i not created  */ = {
+			isa = PBXGroup;
+			children = (
+				8182823D1FEFDB1A00BE55B9 /* LocationService.swift */,
+				8182823B1FEFD08A00BE55B9 /* Constants.swift */,
+				818282391FEFD05D00BE55B9 /* CLLocationCoordinate2D+Extension.swift */,
+				818282371FEFCFE500BE55B9 /* LocationTranslation.swift */,
+				818282351FEFCFC700BE55B9 /* Double+Extension.swift */,
+				818282331FEFCF9B00BE55B9 /* CLLocation+Extension.swift */,
+				818282311FEFCE8500BE55B9 /* MKRouteStep+Extension.swift */,
+				8182822D1FEFCD9700BE55B9 /* BaseNode.swift */,
+				8182822F1FEFCE3300BE55B9 /* MatrixHelper.swift */,
+			);
+			path = "helper for location points files i not created ";
+			sourceTree = "<group>";
+		};
+		818282411FF0020B00BE55B9 /* add object in horizontal place  */ = {
+			isa = PBXGroup;
+			children = (
+				818282421FF0023500BE55B9 /* addPlateView.swift */,
+				818282441FF0025100BE55B9 /* addPlateController.swift */,
+			);
+			path = "add object in horizontal place ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +229,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8182821D1FEFC5FE00BE55B9 /* LaunchScreen.storyboard in Resources */,
+				8159C5F51FF13277002FFCE5 /* Tarelka.scn in Resources */,
 				8182821A1FEFC5FE00BE55B9 /* Assets.xcassets in Resources */,
+				818282481FF0073300BE55B9 /* ship.scn in Resources */,
 				818282151FEFC5FE00BE55B9 /* Main.storyboard in Resources */,
+				8159C5F61FF1327D002FFCE5 /* glass.scn in Resources */,
+				8159C5FD1FF15275002FFCE5 /* bottle.scn in Resources */,
+				8159C5F41FF1326D002FFCE5 /* ChocolateCake.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +246,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818282121FEFC5FE00BE55B9 /* ViewController.swift in Sources */,
+				818282451FF0025100BE55B9 /* addPlateController.swift in Sources */,
+				818282321FEFCE8500BE55B9 /* MKRouteStep+Extension.swift in Sources */,
+				818282121FEFC5FE00BE55B9 /* PickPointsView.swift in Sources */,
+				8182823A1FEFD05D00BE55B9 /* CLLocationCoordinate2D+Extension.swift in Sources */,
+				818282291FEFC6FD00BE55B9 /* PickPointsController.swift in Sources */,
+				818282301FEFCE3300BE55B9 /* MatrixHelper.swift in Sources */,
+				818282401FEFE7D900BE55B9 /* Singletone.swift in Sources */,
+				818282431FF0023500BE55B9 /* addPlateView.swift in Sources */,
+				818282271FEFC6DA00BE55B9 /* ShowRouteView.swift in Sources */,
+				818282361FEFCFC700BE55B9 /* Double+Extension.swift in Sources */,
+				8182823E1FEFDB1A00BE55B9 /* LocationService.swift in Sources */,
 				818282181FEFC5FE00BE55B9 /* CheckHowMakenavigateAR.xcdatamodeld in Sources */,
+				8182822B1FEFCCC400BE55B9 /* ShowRouteController.swift in Sources */,
+				818282381FEFCFE500BE55B9 /* LocationTranslation.swift in Sources */,
 				818282101FEFC5FE00BE55B9 /* AppDelegate.swift in Sources */,
+				8182823C1FEFD08A00BE55B9 /* Constants.swift in Sources */,
+				8182822E1FEFCD9D00BE55B9 /* BaseNode.swift in Sources */,
+				818282341FEFCF9B00BE55B9 /* CLLocation+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = CheckHowMakenavigateAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.CheckHowMakenavigateAR;
@@ -293,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKVSSJM9UR;
 				INFOPLIST_FILE = CheckHowMakenavigateAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Chtar.CheckHowMakenavigateAR;
