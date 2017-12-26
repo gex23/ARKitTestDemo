@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815113CA1FF2634E00402EB3 /* ChocolateCandyPlatter.scn in Resources */ = {isa = PBXBuildFile; fileRef = 815113C91FF2566B00402EB3 /* ChocolateCandyPlatter.scn */; };
+		815114111FF27D6100402EB3 /* Diet_soda.scn in Resources */ = {isa = PBXBuildFile; fileRef = 815113E71FF275DB00402EB3 /* Diet_soda.scn */; };
+		815114121FF27DBE00402EB3 /* Soda_can_Print_color.tga in Resources */ = {isa = PBXBuildFile; fileRef = 815113E51FF2754B00402EB3 /* Soda_can_Print_color.tga */; };
+		815114131FF27DC400402EB3 /* Tarelka.png in Resources */ = {isa = PBXBuildFile; fileRef = 815113D91FF2704500402EB3 /* Tarelka.png */; };
+		815114141FF27E6400402EB3 /* Can.scn in Resources */ = {isa = PBXBuildFile; fileRef = 815113D21FF2669700402EB3 /* Can.scn */; };
+		815114151FF27E6700402EB3 /* Can_Texture_TomatoSoup.png in Resources */ = {isa = PBXBuildFile; fileRef = 815113D11FF2662100402EB3 /* Can_Texture_TomatoSoup.png */; };
+		815114161FF27E6900402EB3 /* Can_Texture_PeaStew.png in Resources */ = {isa = PBXBuildFile; fileRef = 815113CB1FF2661E00402EB3 /* Can_Texture_PeaStew.png */; };
+		815114171FF27E6D00402EB3 /* Can_Texture_Ministrone.png in Resources */ = {isa = PBXBuildFile; fileRef = 815113CE1FF2661F00402EB3 /* Can_Texture_Ministrone.png */; };
 		8159C5F41FF1326D002FFCE5 /* ChocolateCake.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8159C5F31FF131BC002FFCE5 /* ChocolateCake.scn */; };
 		8159C5F51FF13277002FFCE5 /* Tarelka.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8159C5EE1FF13013002FFCE5 /* Tarelka.scn */; };
 		8159C5F61FF1327D002FFCE5 /* glass.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8159C5EC1FF12F9E002FFCE5 /* glass.scn */; };
@@ -36,10 +44,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		815113C91FF2566B00402EB3 /* ChocolateCandyPlatter.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ChocolateCandyPlatter.scn; sourceTree = "<group>"; };
+		815113CB1FF2661E00402EB3 /* Can_Texture_PeaStew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Can_Texture_PeaStew.png; sourceTree = "<group>"; };
+		815113CE1FF2661F00402EB3 /* Can_Texture_Ministrone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Can_Texture_Ministrone.png; sourceTree = "<group>"; };
+		815113D11FF2662100402EB3 /* Can_Texture_TomatoSoup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Can_Texture_TomatoSoup.png; sourceTree = "<group>"; };
+		815113D21FF2669700402EB3 /* Can.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Can.scn; sourceTree = "<group>"; };
+		815113D61FF26DC900402EB3 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		815113D91FF2704500402EB3 /* Tarelka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tarelka.png; sourceTree = "<group>"; };
+		815113E51FF2754B00402EB3 /* Soda_can_Print_color.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Soda_can_Print_color.tga; sourceTree = "<group>"; };
+		815113E71FF275DB00402EB3 /* Diet_soda.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Diet_soda.scn; sourceTree = "<group>"; };
 		8159C5EC1FF12F9E002FFCE5 /* glass.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = glass.scn; sourceTree = "<group>"; };
 		8159C5EE1FF13013002FFCE5 /* Tarelka.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Tarelka.scn; sourceTree = "<group>"; };
 		8159C5F31FF131BC002FFCE5 /* ChocolateCake.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ChocolateCake.scn; sourceTree = "<group>"; };
-		8159C5FB1FF14E22002FFCE5 /* sodaCan.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sodaCan.scn; sourceTree = "<group>"; };
 		8159C5FC1FF151A9002FFCE5 /* bottle.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bottle.scn; sourceTree = "<group>"; };
 		8182820C1FEFC5FE00BE55B9 /* CheckHowMakenavigateAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckHowMakenavigateAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8182820F1FEFC5FE00BE55B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,14 +94,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		815113D71FF26FBA00402EB3 /* can */ = {
+			isa = PBXGroup;
+			children = (
+				815113CE1FF2661F00402EB3 /* Can_Texture_Ministrone.png */,
+				815113CB1FF2661E00402EB3 /* Can_Texture_PeaStew.png */,
+				815113D11FF2662100402EB3 /* Can_Texture_TomatoSoup.png */,
+				815113D21FF2669700402EB3 /* Can.scn */,
+			);
+			path = can;
+			sourceTree = "<group>";
+		};
+		815113DB1FF270AF00402EB3 /* Tarelka */ = {
+			isa = PBXGroup;
+			children = (
+				8159C5EE1FF13013002FFCE5 /* Tarelka.scn */,
+				815113D91FF2704500402EB3 /* Tarelka.png */,
+			);
+			path = Tarelka;
+			sourceTree = "<group>";
+		};
+		815113E81FF275DF00402EB3 /* Diet-soda */ = {
+			isa = PBXGroup;
+			children = (
+				815113E71FF275DB00402EB3 /* Diet_soda.scn */,
+				815113E51FF2754B00402EB3 /* Soda_can_Print_color.tga */,
+			);
+			path = "Diet-soda";
+			sourceTree = "<group>";
+		};
 		8159C5F71FF132A7002FFCE5 /* sd object */ = {
 			isa = PBXGroup;
 			children = (
+				815113C91FF2566B00402EB3 /* ChocolateCandyPlatter.scn */,
 				8159C5FC1FF151A9002FFCE5 /* bottle.scn */,
-				8159C5FB1FF14E22002FFCE5 /* sodaCan.scn */,
-				8159C5EE1FF13013002FFCE5 /* Tarelka.scn */,
 				8159C5F31FF131BC002FFCE5 /* ChocolateCake.scn */,
 				8159C5EC1FF12F9E002FFCE5 /* glass.scn */,
+				815113D61FF26DC900402EB3 /* ship.png */,
 				818282471FF0072700BE55B9 /* ship.scn */,
 			);
 			path = "sd object";
@@ -94,6 +139,9 @@
 		818282031FEFC5FE00BE55B9 = {
 			isa = PBXGroup;
 			children = (
+				815113E81FF275DF00402EB3 /* Diet-soda */,
+				815113DB1FF270AF00402EB3 /* Tarelka */,
+				815113D71FF26FBA00402EB3 /* can */,
 				8159C5F71FF132A7002FFCE5 /* sd object */,
 				818282411FF0020B00BE55B9 /* add object in horizontal place  */,
 				8182823F1FEFE7D900BE55B9 /* Singletone.swift */,
@@ -229,10 +277,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8182821D1FEFC5FE00BE55B9 /* LaunchScreen.storyboard in Resources */,
+				815114111FF27D6100402EB3 /* Diet_soda.scn in Resources */,
+				815114131FF27DC400402EB3 /* Tarelka.png in Resources */,
 				8159C5F51FF13277002FFCE5 /* Tarelka.scn in Resources */,
+				815114161FF27E6900402EB3 /* Can_Texture_PeaStew.png in Resources */,
 				8182821A1FEFC5FE00BE55B9 /* Assets.xcassets in Resources */,
+				815114171FF27E6D00402EB3 /* Can_Texture_Ministrone.png in Resources */,
 				818282481FF0073300BE55B9 /* ship.scn in Resources */,
+				815114121FF27DBE00402EB3 /* Soda_can_Print_color.tga in Resources */,
 				818282151FEFC5FE00BE55B9 /* Main.storyboard in Resources */,
+				815113CA1FF2634E00402EB3 /* ChocolateCandyPlatter.scn in Resources */,
+				815114151FF27E6700402EB3 /* Can_Texture_TomatoSoup.png in Resources */,
+				815114141FF27E6400402EB3 /* Can.scn in Resources */,
 				8159C5F61FF1327D002FFCE5 /* glass.scn in Resources */,
 				8159C5FD1FF15275002FFCE5 /* bottle.scn in Resources */,
 				8159C5F41FF1326D002FFCE5 /* ChocolateCake.scn in Resources */,

@@ -22,11 +22,21 @@ class addPlateView: UIViewController {
         myController.myView = self
         setUpSceneView()
         addTapGestureToSceneView()
+        
+        //UIDevice.current.setValue(Int(UIInterfaceOrientation.landscapeRight.rawValue), forKey: "orientation")
+
         // Do any additional setup after loading the view.
     }
 
 
     
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        super.viewWillDisappear(true)
+      //  UIDevice.current.setValue(Int(UIInterfaceOrientation.portrait.rawValue), forKey: "orientation")
+
+    }
 
 
     func setUpSceneView() {

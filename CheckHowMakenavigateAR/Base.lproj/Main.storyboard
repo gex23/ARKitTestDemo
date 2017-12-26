@@ -123,12 +123,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehw-bm-RiU">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ehw-bm-RiU" firstAttribute="top" secondItem="p0L-uF-cIh" secondAttribute="top" id="Od8-PP-OBs"/>
+                            <constraint firstItem="ehw-bm-RiU" firstAttribute="top" secondItem="p0L-uF-cIh" secondAttribute="top" constant="-20" id="Od8-PP-OBs"/>
                             <constraint firstItem="p0L-uF-cIh" firstAttribute="bottom" secondItem="ehw-bm-RiU" secondAttribute="bottom" id="QtX-f2-XlH"/>
                             <constraint firstItem="p0L-uF-cIh" firstAttribute="trailing" secondItem="ehw-bm-RiU" secondAttribute="trailing" id="WTX-Bc-7NL"/>
                             <constraint firstItem="ehw-bm-RiU" firstAttribute="leading" secondItem="p0L-uF-cIh" secondAttribute="leading" id="qh6-tN-EBf"/>
@@ -136,13 +136,14 @@
                         <viewLayoutGuide key="safeArea" id="p0L-uF-cIh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="add Plate" id="00C-TL-crm"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="sceneView" destination="ehw-bm-RiU" id="epc-Qv-feV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="40s-X1-uPF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="206" y="-776"/>
+            <point key="canvasLocation" x="70" y="-818"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0Cx-Og-QE8">

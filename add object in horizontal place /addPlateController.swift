@@ -139,11 +139,13 @@ class addPlateController: NSObject ,ARSCNViewDelegate{
         let y = translation.y
         let z = translation.z
         
-        //sodaCan
-        ///bottle
-         //ChocolateCake  //glass
-        guard let shipScene = SCNScene(named: "bottle.scn"),
-            let shipNode = shipScene.rootNode.childNode(withName: "bottle", recursively: false)
+        //sodaCan //Can
+         //Tarelka
+        
+        
+        ///bottle //ChocolateCake  //glass // ChocolateCandyPlatter //Diet_soda
+        guard let shipScene = SCNScene(named: "Diet_soda.scn"),
+            let shipNode = shipScene.rootNode.childNode(withName: "Diet_soda", recursively: false)
             else { return }
         
         
