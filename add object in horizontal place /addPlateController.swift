@@ -8,10 +8,14 @@
 
 import UIKit
 import ARKit
-class addPlateController: NSObject ,ARSCNViewDelegate{
+class addPlateController: NSObject ,ARSCNViewDelegate, UITableViewDelegate,UITableViewDataSource{
     
     var myView : addPlateView!
+    var items : [String]! = ["bottle","ChocolateCake","glass","ChocolateCandyPlatter","Diet_soda"]
+        ///bottle //ChocolateCake  //glass // ChocolateCandyPlatter //Diet_soda]
     
+    
+    var selectIndex : Int! = 0
     override init() {
         super.init()
     }
@@ -144,12 +148,40 @@ class addPlateController: NSObject ,ARSCNViewDelegate{
         
         
         ///bottle //ChocolateCake  //glass // ChocolateCandyPlatter //Diet_soda
-        guard let shipScene = SCNScene(named: "Diet_soda.scn"),
-            let shipNode = shipScene.rootNode.childNode(withName: "Diet_soda", recursively: false)
+        
+        
+        guard let shipScene = SCNScene(named: items[selectIndex] + ".scn"),
+            let shipNode = shipScene.rootNode.childNode(withName: items[selectIndex], recursively: false)
             else { return }
         
         
         shipNode.position = SCNVector3(x,y,z)
         myView.sceneView.scene.rootNode.addChildNode(shipNode)
+    }
+    
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        selectIndex = indexPath.row
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        var cell = tableView.dequeueReusableCell(withIdentifier: "itemCellID", for: indexPath)
+        
+        cell.textLabel?.text = items[indexPath.row]
+        
+        return cell
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return items.count
+    }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+        return 1
     }
 }

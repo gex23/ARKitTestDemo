@@ -8,12 +8,20 @@
 
 import UIKit
 import ARKit
+
+
+///itemCellID
 class addPlateView: UIViewController {
 
     var myController : addPlateController!
     
     
     @IBOutlet weak var sceneView: ARSCNView!
+    
+    @IBOutlet weak var itemTableView: UITableView!
+    
+    @IBOutlet weak var hideViewButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +31,10 @@ class addPlateView: UIViewController {
         setUpSceneView()
         addTapGestureToSceneView()
         
+        
+        itemTableView.delegate = myController
+        
+        itemTableView.dataSource = myController
         //UIDevice.current.setValue(Int(UIInterfaceOrientation.landscapeRight.rawValue), forKey: "orientation")
 
         // Do any additional setup after loading the view.
