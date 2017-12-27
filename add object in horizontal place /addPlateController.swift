@@ -11,8 +11,8 @@ import ARKit
 class addPlateController: NSObject ,ARSCNViewDelegate, UITableViewDelegate,UITableViewDataSource{
     
     var myView : addPlateView!
-    var items : [String]! = ["bottle","ChocolateCake","glass","ChocolateCandyPlatter","Diet_soda"]
-        ///bottle //ChocolateCake  //glass // ChocolateCandyPlatter //Diet_soda]
+    var items : [String]! = ["bottle","ChocolateCake","glass","ChocolateCandyPlatter","Diet_soda","apple","Can"]
+        ///bottle //ChocolateCake  //glass // ChocolateCandyPlatter //Diet_soda],"cherries"
     
     
     var selectIndex : Int! = 0
@@ -22,6 +22,14 @@ class addPlateController: NSObject ,ARSCNViewDelegate, UITableViewDelegate,UITab
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
+        DispatchQueue.main.async { // Correct
+        
+            self.myView.itemTableView.isHidden = false
+            self.myView.scanLabel.isHidden = true
+            
+        }
+       
+
         // 1
         guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
         
@@ -103,7 +111,7 @@ class addPlateController: NSObject ,ARSCNViewDelegate, UITableViewDelegate,UITab
         node.addChildNode(nodex)
 
         
-
+       
         
     }
     

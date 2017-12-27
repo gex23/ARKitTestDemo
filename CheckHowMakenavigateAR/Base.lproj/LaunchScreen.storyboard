@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +17,45 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copy right reserved(c). Ragaie Alfy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9r-S7-byR">
+                                <rect key="frame" x="80.5" y="646.5" width="213" height="14.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="N4J-vX-U8o">
+                                <rect key="frame" x="62" y="149" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="1gJ-Ft-WdF"/>
+                                    <constraint firstAttribute="width" secondItem="N4J-vX-U8o" secondAttribute="height" multiplier="1:1" id="c5H-na-0r4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqu-Jg-KhZ">
+                                <rect key="frame" x="96" y="418" width="182.5" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                                <color key="textColor" red="0.044271685183048248" green="0.32933413982391357" blue="0.74842989444732666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N4J-vX-U8o" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-69.5" id="Fie-qr-7ef"/>
+                            <constraint firstItem="e9r-S7-byR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="P1y-6a-A6O"/>
+                            <constraint firstItem="N4J-vX-U8o" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VXs-qc-M27"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e9r-S7-byR" secondAttribute="bottom" constant="6" id="dh2-g3-vcA"/>
+                            <constraint firstItem="xqu-Jg-KhZ" firstAttribute="top" secondItem="N4J-vX-U8o" secondAttribute="bottom" constant="19" id="fBZ-46-Z1j"/>
+                            <constraint firstItem="xqu-Jg-KhZ" firstAttribute="centerX" secondItem="N4J-vX-U8o" secondAttribute="centerX" id="frZ-0h-ubZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="splash" width="100" height="109"/>
+    </resources>
 </document>

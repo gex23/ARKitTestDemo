@@ -15,6 +15,7 @@ class addPlateView: UIViewController {
 
     var myController : addPlateController!
     
+    @IBOutlet weak var scanLabel: UILabel!
     
     @IBOutlet weak var sceneView: ARSCNView!
     
@@ -35,6 +36,7 @@ class addPlateView: UIViewController {
         itemTableView.delegate = myController
         
         itemTableView.dataSource = myController
+        itemTableView.isHidden = true
         //UIDevice.current.setValue(Int(UIInterfaceOrientation.landscapeRight.rawValue), forKey: "orientation")
 
         // Do any additional setup after loading the view.
